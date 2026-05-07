@@ -3,21 +3,21 @@ import { Star, Quote } from "lucide-react";
 const items = [
   {
     quote:
-      "The most refined barbershop experience in São Paulo. Every visit feels intentional — from the welcome to the final mirror.",
+      "A experiência de barbearia mais refinada de São Paulo. Cada visita parece intencional — da recepção ao espelho final.",
     name: "Rafael Andrade",
-    role: "Creative Director",
+    role: "Diretor Criativo",
   },
   {
     quote:
-      "I've been getting cuts for 20 years. Nothing compares to the precision and atmosphere Legacy delivers. It changed how I show up.",
+      "Corto cabelo há 20 anos. Nada se compara à precisão e à atmosfera da Legacy. Mudou a forma como me apresento.",
     name: "Lucas Mendes",
-    role: "Entrepreneur",
+    role: "Empresário",
   },
   {
     quote:
-      "It's not just a haircut — it's a private ritual. The team treats your image like an investment. Worth every minute.",
+      "Não é só um corte — é um ritual privado. A equipe trata sua imagem como um investimento. Vale cada minuto.",
     name: "Felipe Ribeiro",
-    role: "Investment Partner",
+    role: "Sócio de Investimentos",
   },
 ];
 
@@ -27,10 +27,10 @@ export function Testimonials() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="mb-20 flex flex-col items-center text-center">
           <span className="text-[10px] uppercase tracking-luxury text-gold">
-            04 — Voices
+            04 — Vozes
           </span>
           <h2 className="mt-4 max-w-2xl font-display text-4xl md:text-5xl lg:text-6xl">
-            Trusted by men who <span className="text-gradient-gold italic">choose better.</span>
+            Confiado por homens que <span className="text-gradient-gold italic">escolhem melhor.</span>
           </h2>
           <div className="hairline mt-8 w-24" />
         </div>
