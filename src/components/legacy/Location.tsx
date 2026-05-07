@@ -15,7 +15,7 @@ export function Location() {
             05 — Visite
           </span>
           <h2 className="mt-4 max-w-2xl font-display text-4xl md:text-5xl lg:text-6xl">
-            Encontre-nos em <span className="text-gradient-gold italic">São Paulo.</span>
+            Encontre-nos em <span className="text-gradient-gold italic">Minas Gerais.</span>
           </h2>
           <div className="hairline mt-8 w-24" />
         </div>
