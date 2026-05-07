@@ -9,13 +9,18 @@ export function Footer() {
           <span className="text-gradient-gold italic">Barber</span>
         </a>
         <nav className="flex justify-center gap-8">
-          {["Services", "Gallery", "About", "Contact"].map((l) => (
+          {[
+            { label: "Serviços", href: "services" },
+            { label: "Galeria", href: "gallery" },
+            { label: "Sobre", href: "about" },
+            { label: "Contato", href: "contact" },
+          ].map((l) => (
             <a
-              key={l}
-              href={`#${l.toLowerCase()}`}
+              key={l.href}
+              href={`#${l.href}`}
               className="text-[10px] uppercase tracking-luxury text-muted-foreground hover:text-gold"
             >
-              {l}
+              {l.label}
             </a>
           ))}
         </nav>
@@ -43,7 +48,7 @@ export function Footer() {
       <div className="mx-auto mt-12 max-w-7xl px-6">
         <div className="hairline" />
         <p className="mt-6 text-center text-[10px] uppercase tracking-luxury text-muted-foreground">
-          © {new Date().getFullYear()} Legacy Barber · São Paulo · All rights reserved
+          © {new Date().getFullYear()} Legacy Barber · São Paulo · Todos os direitos reservados
         </p>
       </div>
     </footer>

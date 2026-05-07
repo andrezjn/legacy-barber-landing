@@ -2,10 +2,10 @@ import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 
 const links = [
-  { label: "Services", href: "#services" },
-  { label: "Gallery", href: "#gallery" },
-  { label: "About", href: "#about" },
-  { label: "Contact", href: "#contact" },
+  { label: "Serviços", href: "#services" },
+  { label: "Galeria", href: "#gallery" },
+  { label: "Sobre", href: "#about" },
+  { label: "Contato", href: "#contact" },
 ];
 
 export function Nav() {
@@ -45,7 +45,7 @@ export function Nav() {
           href="#book"
           className="hidden items-center justify-center rounded-full border border-gold/40 bg-gold/10 px-5 py-2.5 text-xs uppercase tracking-luxury text-gold transition-all hover:bg-gold hover:text-primary-foreground md:inline-flex"
         >
-          Book Now
+          Agendar
         </a>
         <button
           aria-label="Menu"
@@ -73,7 +73,7 @@ export function Nav() {
               onClick={() => setOpen(false)}
               className="mt-2 inline-flex items-center justify-center rounded-full bg-gradient-gold px-5 py-3 text-xs uppercase tracking-luxury text-primary-foreground"
             >
-              Book Now
+              Agendar
             </a>
           </nav>
         </div>

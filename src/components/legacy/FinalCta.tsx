@@ -17,15 +17,15 @@ export function FinalCta() {
 
       <div className="relative z-10 mx-auto max-w-4xl px-6 text-center">
         <span className="text-[10px] uppercase tracking-luxury text-gold">
-          The Legacy
+          O Legado
         </span>
         <h2 className="mt-6 font-display text-5xl leading-[1.05] md:text-6xl lg:text-7xl">
-          Upgrade your image.
+          Eleve seu visual
           <br />
-          <span className="text-gradient-gold italic">Own your presence.</span>
+          <span className="text-gradient-gold italic">para outro nível.</span>
         </h2>
         <p className="mx-auto mt-8 max-w-xl text-base leading-relaxed text-muted-foreground">
-          Book your private chair today. A few minutes — a lasting signature.
+          Reserve sua cadeira privativa hoje. Alguns minutos — uma assinatura para anos.
         </p>
         <div className="mt-12 flex justify-center">
           <a
@@ -35,7 +35,7 @@ export function FinalCta() {
             className="group inline-flex items-center gap-3 rounded-full bg-gradient-gold px-10 py-5 text-xs font-semibold uppercase tracking-luxury text-primary-foreground shadow-gold transition-transform hover:scale-[1.03]"
           >
             <MessageCircle size={18} />
-            Book via WhatsApp
+            Agendar pelo WhatsApp
           </a>
         </div>
       </div>
