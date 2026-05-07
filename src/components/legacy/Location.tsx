@@ -24,7 +24,7 @@ export function Location() {
           <div className="relative col-span-3 overflow-hidden rounded-2xl border border-border bg-card h-[480px]">
             <iframe
               title="Legacy Barber Location"
-              src="https://maps.app.goo.gl/HkwDUmmKWmRTXmnN9"
+              src="https://www.google.pt/maps/@-19.9261067,-43.9532691,2344m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MDUwMi4wIKXMDSoASAFQAw%3D%3D"
               className="h-full w-full grayscale contrast-125"
               loading="lazy"
             />
