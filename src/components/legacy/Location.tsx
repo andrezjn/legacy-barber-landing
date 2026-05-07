@@ -24,7 +24,7 @@ export function Location() {
           <div className="relative col-span-3 overflow-hidden rounded-2xl border border-border bg-card h-[480px]">
             <iframe
               title="Legacy Barber Location"
-              src="https://www.google.com/maps?q=Rua+Oscar+Freire,+S%C3%A3o+Paulo&output=embed"
+              src="https://maps.app.goo.gl/HkwDUmmKWmRTXmnN9"
               className="h-full w-full grayscale contrast-125"
               loading="lazy"
             />
@@ -38,9 +38,9 @@ export function Location() {
                 <span className="text-[10px] uppercase tracking-luxury">Endereço</span>
               </div>
               <p className="mt-4 font-display text-2xl text-foreground">
-                Rua Oscar Freire, 1200
+                Av. Bias Fortes, 1200
               </p>
-              <p className="text-sm text-muted-foreground">Jardins · São Paulo · SP</p>
+              <p className="text-sm text-muted-foreground">Centro · Belo Horizonte · MG</p>
             </div>
 
             <div className="rounded-2xl border border-border bg-card p-8">
@@ -63,7 +63,7 @@ export function Location() {
 
             <div className="grid grid-cols-2 gap-3">
               <a
-                href="https://wa.me/5511999999999"
+                href="https://wa.me/5531999999999"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center justify-center gap-2 rounded-2xl bg-gradient-gold px-5 py-4 text-xs font-semibold uppercase tracking-luxury text-primary-foreground shadow-gold transition-transform hover:scale-[1.02]"
