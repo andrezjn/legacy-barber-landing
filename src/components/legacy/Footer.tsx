@@ -48,7 +48,7 @@ export function Footer() {
       <div className="mx-auto mt-12 max-w-7xl px-6">
         <div className="hairline" />
         <p className="mt-6 text-center text-[10px] uppercase tracking-luxury text-muted-foreground">
-          © {new Date().getFullYear()} Legacy Barber · São Paulo · Todos os direitos reservados
+          © {new Date().getFullYear()} Legacy Barber · Minas Gerais · Todos os direitos reservados
         </p>
       </div>
     </footer>
