@@ -19,7 +19,7 @@ export function Hero() {
           <div className="mb-6 flex items-center gap-3">
             <Scissors size={14} className="text-gold" />
             <span className="text-[10px] uppercase tracking-luxury text-gold">
-              São Paulo · Desde 2018
+              Minas Gerais · Desde 2018
             </span>
           </div>
           <h1 className="font-display text-5xl leading-[1.05] text-foreground sm:text-6xl md:text-7xl lg:text-8xl">
