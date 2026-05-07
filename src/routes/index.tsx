@@ -14,7 +14,7 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "Legacy Barber — Premium Barbershop in São Paulo" },
+      { title: "Legacy Barber — Premium Barbershop in Minas Gerais" },
       {
         name: "description",
         content:
